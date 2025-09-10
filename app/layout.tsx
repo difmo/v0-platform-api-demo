@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'v0 Platform API Demo',
+  title: 'Welcome',
   description: 'A demo of the v0 Platform API',
   openGraph: {
-    title: 'v0 Platform API Demo',
-    description: 'A demo of the v0 Platform API',
+    title: 'Welcome',
+    description: 'A demo o  f the v0 Platform API',
     images: ['/og-image.png'],
   },
   twitter: {
@@ -47,7 +47,7 @@ export default function RootLayout({
           disableTransitionOnChange
           storageKey="theme"
         >
-          <DeployBanner />
+          {/* <DeployBanner /> */}
           {children}
         </ThemeProvider>
       </body>

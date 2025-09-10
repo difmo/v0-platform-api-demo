@@ -215,7 +215,7 @@ export default function HomePage() {
           style={{ transform: 'translateY(-25%)' }}
         >
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4 text-pretty">
-            v0 Platform API Demo
+            Welcome Back
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
             This is a demo of the{' '}
